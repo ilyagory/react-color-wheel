@@ -2,7 +2,7 @@
   "name": "react-color-wheel",
   "description": "A circular colour-picker React component; built with HTML5's canvas & context-api",
   "version": "1.0.7",
-  "main": "./src/components/colourWheel/ColourWheel.js",
+  "main": "./src/components/colourWheel/ColourWheel.jsx",
   "license": "MIT",
   "repository": {
     "type": "git",
