@@ -2,7 +2,7 @@
   "name": "react-color-wheel",
   "description": "A circular colour-picker React component; built with HTML5's canvas & context-api",
   "version": "1.0.7",
-  "main": "./src/components/colourWheel/ColourWheel.jsx",
+  "main": "./dist/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -11,18 +11,10 @@
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1",
     "tinycolor2": "^1.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "bundle": "rollup -c",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "bundle": "rollup -c"
   },
   "browserslist": [
     ">0.2%",

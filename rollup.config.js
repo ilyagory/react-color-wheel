@@ -6,15 +6,15 @@ import { terser } from 'rollup-plugin-terser'
 
 // rollup.config.js
 const config = {
-  input: 'src/components/colourWheel/ColourWheel.js',
-  external: ['react'],
+  input: 'src/components/colorWheel/ColorWheel.jsx',
+  external: ['react', 'react-dom', 'prop-types'],
   output: {
-    file: 'build/ColourWheel.js',
-    format: 'umd',
-    name: 'countdown',
-    globals: {
-      react: 'React'
-    }
+    file: 'dist/index.js',
+    format: 'esm'
+    // name: 'countdown',
+    // globals: {
+    //   react: 'React'
+    // }
   },
   plugins: [
     babel({

@@ -44,7 +44,7 @@ const defaultProps = {
 const fullCircle = 2 * Math.PI
 const quarterCircle = fullCircle / 4
 
-class ColourWheel extends Component {
+class ColorWheel extends Component {
   constructor () {
     super()
 
@@ -410,7 +410,7 @@ class ColourWheel extends Component {
   }
 }
 
-ColourWheel.propTypes = propTypes
-ColourWheel.defaultProps = defaultProps
+ColorWheel.propTypes = propTypes
+ColorWheel.defaultProps = defaultProps
 
-export default ColourWheel
+export default ColorWheel
